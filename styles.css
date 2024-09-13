@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+}
+
+.terminal {
+    text-align: center;
+    font-size: 24px;
+}
+
+.hidden {
+    display: none;
+}
+
+#menu a {
+    color: #00ff00;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+#menu a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    margin-top: 20px;
+}
+
+.small-text {
+    font-size: 18px;
+}
