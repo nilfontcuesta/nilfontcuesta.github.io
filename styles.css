@@ -12,7 +12,6 @@ body {
 
 .terminal {
     text-align: center;
-    font-size: 24px;
 }
 
 .hidden {
@@ -31,6 +30,14 @@ body {
 
 #menu {
     margin-top: 20px;
+}
+
+.large-text {
+    font-size: 40px;
+}
+
+.normal-text {
+    font-size: 24px;
 }
 
 .small-text {
