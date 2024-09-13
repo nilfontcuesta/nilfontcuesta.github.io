@@ -4,10 +4,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
     background-color: black;
     font-family: 'Courier New', Courier, monospace;
     color: #00ff00;
+    overflow: hidden;
+    height: 100vh;
 }
 
 .terminal {
@@ -42,4 +43,23 @@ body {
 
 .small-text {
     font-size: 18px;
+}
+
+@media (max-width: 768px) {
+    .large-text {
+        font-size: 32px;
+    }
+
+    .normal-text {
+        font-size: 20px;
+    }
+
+    .small-text {
+        font-size: 16px;
+    }
+
+    #menu {
+        font-size: 14px;
+        margin-top: 15px;
+    }
 }
