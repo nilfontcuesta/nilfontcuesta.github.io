@@ -1,0 +1,48 @@
+body {
+    margin: 30px 4%;
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    color: #00ff00;
+}
+
+#title {
+    margin-bottom: 3px;
+}
+
+#subtitle {
+    margin-bottom: 6px;
+}
+
+#description {
+    min-height: 180px;
+}
+
+hr {
+    margin: 1em 0;
+    border-color: #00ff00;
+}
+
+a:link {
+    color: #e341f7;
+}
+
+a:visited {
+    color: #6ceff3;
+}
+
+#main {
+    max-width: 800px;
+    margin: 0px auto;
+}
+
+.large-text {
+    font-size: 40px;
+}
+
+.normal-text {
+    font-size: 24px;
+}
+
+.small-text {
+    font-size: 18px;
+}

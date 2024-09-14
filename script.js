@@ -2,11 +2,11 @@ const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
 
 const texts = [
-    { content: "Welcome", class: "large-text" },
-    { content: "web under construction", class: "normal-text" },
-    { content: "by Nil Font i Cuesta", class: "samll-text" }
+    { content: "> Welcome", class: "large-text" },
+    { content: "to the Nil Font i Cuesta website", class: "normal-text" },
+    { content: "a Software Engineer who loves ☕​⛵🏔️", class: "samll-text" }
 ]
-const typingSpeed = 100; 
+const typingSpeed = 75; 
 
 let currentTextIndex = 0;
 let currentCharIndex = 0;
