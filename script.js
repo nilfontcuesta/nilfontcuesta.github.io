@@ -2,8 +2,8 @@ const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
 
 const texts = [
-    { content: "> Welcome", class: "large-text" },
-    { content: "to the Nil Font i Cuesta website", class: "normal-text" },
+    { content: "> Welcome!", class: "large-text" },
+    { content: "I'm Nil Font i Cuesta", class: "normal-text" },
     { content: "a Software Engineer who loves ☕​⛵🏔️", class: "samll-text" }
 ]
 const typingSpeed = 75; 
