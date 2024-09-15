@@ -2,9 +2,9 @@ const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
 
 const texts = [
-    { content: "> Welcome!", class: "large-text" },
-    { content: "I'm Nil Font i Cuesta", class: "normal-text" },
-    { content: "a Software Engineer who loves ☕​⛵🏔️", class: "samll-text" }
+    { content: translations[currentLanguage]["welcome-title"], class: "large-text", key:"welcome-title" },
+    { content: translations[currentLanguage]["welcome-second"], class: "normal-text", key:"welcome-second" },
+    { content: translations[currentLanguage]["welcome-third"], class: "samll-text", key:"welcome-third" }
 ]
 const typingSpeed = 75; 
 
@@ -19,6 +19,7 @@ function typeText() {
             const lineDiv = document.createElement('div');
             lineDiv.classList.add(currentLine.class);
             lineDiv.id = `line${currentTextIndex}`;
+            lineDiv.setAttribute("data-i18n", currentLine.key);
             textElement.appendChild(lineDiv); 
         }
 
@@ -44,6 +45,7 @@ function adjustViewportHeight() {
 
 window.onload = () => {
     adjustViewportHeight();
+    updateContent();
     typeText();
 };
 

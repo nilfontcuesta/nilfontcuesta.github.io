@@ -1,0 +1,51 @@
+/* Estilo del contenedor del selector de idioma */
+.language-select {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #00ff00;
+}
+
+/* Botón que muestra el idioma actual */
+.language-select .selected-language {
+    background-color: black;
+    color: #00ff00;
+    border: 1px solid #00ff00;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Dropdown escondido por defecto */
+.language-select .dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-color: black;
+    border: 1px solid #00ff00;
+    z-index: 1000;
+}
+
+/* Cada opción de idioma */
+.language-select .dropdown .dropdown-item {
+    padding: 5px 10px;
+    cursor: pointer;
+    border-bottom: 1px solid #00ff00;
+}
+
+/* Estilo para la última opción (sin borde) */
+.language-select .dropdown .dropdown-item:last-child {
+    border-bottom: none;
+}
+
+/* Estilo de hover */
+.language-select .dropdown .dropdown-item:hover {
+    background-color: #00ff00;
+    color: black;
+}
+
+/* Dropdown visible cuando se activa */
+.language-select.open .dropdown {
+    display: block;
+}
