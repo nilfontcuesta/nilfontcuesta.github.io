@@ -1,10 +1,11 @@
 const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
+const langSelectorElement = document.getElementById('lang-selector');
 
 const texts = [
-    { content: translations[currentLanguage]["welcome-title"], class: "large-text", key:"welcome-title" },
-    { content: translations[currentLanguage]["welcome-second"], class: "normal-text", key:"welcome-second" },
-    { content: translations[currentLanguage]["welcome-third"], class: "samll-text", key:"welcome-third" }
+    { content: translate("welcome-title"), class: "large-text", key:"welcome-title" },
+    { content: translate("welcome-second"), class: "normal-text", key:"welcome-second" },
+    { content: translate("welcome-third"), class: "samll-text", key:"welcome-third" }
 ]
 const typingSpeed = 75; 
 
@@ -35,6 +36,7 @@ function typeText() {
         }
     } else {
         menuElement.classList.remove('hidden');
+        langSelectorElement.removeAttribute("hidden")
     }
 }
 
