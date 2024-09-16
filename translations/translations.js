@@ -5,9 +5,14 @@ const translations = {
         "welcome-third": "a Software Engineer who loves ☕​⛵🏔️",
         "welcome-menu-resume": "Resume",
         "welcome-menu-linkedin": "LinkedIn",
+        "resume-name": "Nil Font i Cuesta",
+        "resume-first-subtitle": "> Software Engineer:",
+        "resume-second-subtitle": "6 years of experience",
+        "resume-download-pdf": "Download PDF",
         "resume-presentation-hello": "> Hey there, I'm Nil! 👋",
         "resume-presentation-professional": "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy.",
-        "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge."
+        "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge.",
+        "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform."
     },
     es: {
         "welcome-title": "> Bienvenido/a!",
@@ -15,9 +20,14 @@ const translations = {
         "welcome-third": "un Ingeniero del Software apasionado del ☕​⛵🏔️",
         "welcome-menu-resume": "Resumen",
         "welcome-menu-linkedin": "LinkedIn",
-        "resume-presentation-hello": "> Hey there, I'm Nil! 👋",
-        "resume-presentation-professional": "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy.",
-        "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge."
+        "resume-name": "Nil Font Cuesta",
+        "resume-first-subtitle": "> Ingeniero del Software:",
+        "resume-second-subtitle": "con más de 6 años de experiencia",
+        "resume-download-pdf": "Descargar PDF",
+        "resume-presentation-hello": "> Hola, soy Nil! 👋",
+        "resume-presentation-professional": "Soy Ingeniero Informático por la UPC, especializado en Ingeniería del Software. Tengo más de 6 años de experiencia en el sector y como Backend Engineer me apasiona la arquitectura del software. Actualmente también estoy cursando un máster en Ciberseguridad y Privacidad en la UOC",
+        "resume-presentation-personal": "A nivel personal, soy ambiciosos, con ganas de seguir aprendiendo y creciendo a nivel profesional y personal. También soy una persona que disfruta mucho del trabajo en equipo, valoro mucho la honestidad, el buen feedback y compartir conocimiento.",
+        "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma."
     },
     ca: {
         "welcome-title": "> Benvingut/da!",
@@ -25,9 +35,14 @@ const translations = {
         "welcome-third": "sóc un Enginyer del Software apassionat del ☕​⛵🏔️",
         "welcome-menu-resume": "Resum",
         "welcome-menu-linkedin": "LinkedIn",
+        "resume-name": "Nil Font i Cuesta",
+        "resume-first-subtitle": "> Enginyer del Software:",
+        "resume-second-subtitle": "amb més de 6 anys d'experiència",
+        "resume-download-pdf": "Descarregar PDF",
         "resume-presentation-hello": "> Hola, em dic Nil! 👋",
-        "resume-presentation-professional": "Sóc Enginyer Informátic per la UPC, especialitzat en Enginyeria del Software. Ja tinc més de 6 anys d'experiència en el sector. Com a enginyer backend m'apassiona l'arquitectura del software i actualment també estic fent un màster en Ciberseguretat i Privadesa.",
-        "resume-presentation-personal": "A nivell personal, sóc ambiciós, amb ganes de seguir aprenent i creixent tant professional com personalment. També sóc una persona que gaudeix molt del treball en equip, que valora molt l'honestedat, el feedback i compartir coneixements."
+        "resume-presentation-professional": "Sóc Enginyer Informàtic per la UPC, especialitzat en Enginyeria del Software. Tinc més de 6 anys d'experiència en el sector. Com a enginyer backend m'apassiona l'arquitectura del software. Actualment també estic fent un màster en Ciberseguretat i Privadesa a la UOC",
+        "resume-presentation-personal": "A nivell personal, sóc ambiciós, amb ganes de seguir aprenent i creixent tant professional com personalment. També sóc una persona que gaudeix molt del treball en equip, que valora molt l'honestedat, el feedback i compartir coneixements.",
+        "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma."
     }
 };
 

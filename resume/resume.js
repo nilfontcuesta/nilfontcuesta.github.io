@@ -1,8 +1,9 @@
 const descriptionElement = document.getElementById('description');
+const langSelectorElement = document.getElementById('resume-lang-selector');
 const description = [
-    { content: "> Hey there, I'm Nil! 👋" },
-    { content: "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy." },
-    { content: "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge." },
+    { content: translate("resume-presentation-hello"), key: "resume-presentation-hello" },
+    { content: translate("resume-presentation-professional"), key: "resume-presentation-professional" },
+    { content: translate("resume-presentation-personal"),key: "resume-presentation-personal" },
 ]
 
 const typingSpeed = 20; 
@@ -17,6 +18,7 @@ function typeDescription() {
         if (currentCharIndex === 0) {
             const lineDiv = document.createElement('p');
             lineDiv.id = `descriptionLine${currentTextIndex}`;
+            lineDiv.setAttribute("data-i18n", currentLine.key);
             descriptionElement.appendChild(lineDiv); 
         }
 
@@ -30,10 +32,13 @@ function typeDescription() {
             currentCharIndex = 0;
             setTimeout(typeDescription, typingSpeed);
         }
+    } else {
+        langSelectorElement.removeAttribute("hidden")
     }
 }
 
 
 window.onload = () => {
+    updateContent();
     typeDescription();
 };
