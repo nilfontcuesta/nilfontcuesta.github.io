@@ -45,9 +45,9 @@ function adjustViewportHeight() {
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 }
 
-window.onload = () => {
-    adjustViewportHeight();
+window.onload = () => { 
     updateContent();
+    adjustViewportHeight();
     typeText();
 };
 

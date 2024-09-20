@@ -51,6 +51,7 @@ a:visited {
     display: none;
     margin-left: 15px;
 }
+
 .collapsible {
     cursor: pointer;
     user-select: none; 
