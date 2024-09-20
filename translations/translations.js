@@ -13,7 +13,16 @@ const translations = {
         "resume-presentation-professional": "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy.",
         "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge.",
         "resume-subtitle-experience":"Main Experience",
-        "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform."
+        "wallapop-title": "Wallapop (Mar 2022 - Present)",
+        "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform.",
+        "omatech-title": "Omatech (Abr 2019 - Mar 2022)",
+        "omatech-description": " is a digital development company that specializes in creating custom technical solutions for businesses",
+        "farmavet-title": "Farmavet (Jul 2018 - Feb 2019)",
+        "farmavet-description": " is a digital development company that specializes in creating custom technical solutions for health and pharmacy businesses",
+        "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
+        "bcnquark-description": " is a technology company dedicated to the development software.",
+        "resume-subtitle-education": "Education",
+        "resume-subtitle-miscellaneous": "Miscellaneous"
     },
     es: {
         "welcome-title": "> Bienvenido/a!",
@@ -29,7 +38,16 @@ const translations = {
         "resume-presentation-professional": "Soy Ingeniero Informático por la UPC, especializado en Ingeniería del Software. Tengo más de 6 años de experiencia en el sector y como Backend Engineer me apasiona la arquitectura del software. Actualmente también estoy cursando un máster en Ciberseguridad y Privacidad en la UOC",
         "resume-presentation-personal": "A nivel personal, soy ambiciosos, con ganas de seguir aprendiendo y creciendo a nivel profesional y personal. También soy una persona que disfruta mucho del trabajo en equipo, valoro mucho la honestidad, el buen feedback y compartir conocimiento.",
         "resume-subtitle-experience":"Experiencia",
-        "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma."
+        "wallapop-title": "Wallapop (Mar 2022 - Presente)",
+        "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma.",
+        "omatech-title": "Omatech (Abr 2019 - Mar 2022)",
+        "omatech-description": " es empresa de desarrollo digital especializada en crear soluciones técnicas personalizadas (web, apps...) para empresas.",
+        "farmavet-title": "Farmavet (Jul 2018 - Feb 2019)",
+        "farmavet-description": " es una consultora tecnológica especializada en proporcionar soluciones a empresas del sector sanitário y farmacéutico.",
+        "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
+        "bcnquark-description": " es una empresa tecnológica con varios productos propios.",
+        "resume-subtitle-education": "Educación",
+        "resume-subtitle-miscellaneous": "Otros"
     },
     ca: {
         "welcome-title": "> Benvingut/da!",
@@ -45,7 +63,16 @@ const translations = {
         "resume-presentation-professional": "Sóc Enginyer Informàtic per la UPC, especialitzat en Enginyeria del Software. Tinc més de 6 anys d'experiència en el sector. Com a enginyer backend m'apassiona l'arquitectura del software. Actualment també estic fent un màster en Ciberseguretat i Privadesa a la UOC",
         "resume-presentation-personal": "A nivell personal, sóc ambiciós, amb ganes de seguir aprenent i creixent tant professional com personalment. També sóc una persona que gaudeix molt del treball en equip, que valora molt l'honestedat, el feedback i compartir coneixements.",
         "resume-subtitle-experience":"Experiència",
-        "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma."
+        "wallapop-title": "Wallapop (Mar 2022 - Present)",
+        "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma.",
+        "omatech-title": "Omatech (Abr 2019 - Mar 2022)",
+        "omatech-description": " és una empresa de desenvolupament digital especialitzada en crear solucions tècniques personalitzades per a empreses (web, apps etc.)",
+        "farmavet-title": "Farmavet (Jul 2018 - Feb 2019)",
+        "farmavet-description": " és una consultora tecnològica especialitzada en proporcionar solucions a empreses del sector sanitari i farmacèutic.",
+        "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
+        "bcnquark-description": " és  empresa tecnològica amb diversos productes propis",
+        "resume-subtitle-education": "Educació",
+        "resume-subtitle-miscellaneous": "Altres"
     }
 };
 

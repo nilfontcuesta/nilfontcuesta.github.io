@@ -51,22 +51,20 @@ a:visited {
     display: none;
     margin-left: 15px;
 }
-
-/* Estilos para los elementos que son colapsibles */
 .collapsible {
     cursor: pointer;
-    user-select: none; /* Evita la selección de texto accidental */
-    display: block; /* Asegura que cada título esté en su propia línea */
-    position: relative; /* Permite posicionar el símbolo a la izquierda */
-    padding-left: 40px; /* Deja espacio para el símbolo a la izquierda */
+    user-select: none; 
+    display: block;
+    position: relative;
+    padding-left: 40px;
 }
 
 .collapsible::before {
-    content: '[+]'; /* Mostrar el símbolo de colapsado */
-    position: absolute; /* Posicionar el símbolo de manera independiente */
-    left: 0; /* Alinearlo a la izquierda */
+    content: '[+]';
+    position: absolute;
+    left: 0;
 }
 
 .collapsible.active::before {
-    content: '[-]'; /* Cambiar el símbolo cuando se expanda */
+    content: '[-]';
 }
