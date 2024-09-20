@@ -10,8 +10,8 @@ const translations = {
         "resume-second-subtitle": "6 years of experience",
         "resume-download-pdf": "Download PDF",
         "resume-presentation-hello": "> Hey there, I'm Nil! 👋",
-        "resume-presentation-professional": "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy.",
-        "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge.",
+        "resume-presentation-professional": "A Computer Engineer graduated from UPC, specialized in Software Engineering, with over 6 years of experience in the field. As a backend engineer, I'm passionate about software architecture and its ability to solve complex problems efficiently. Currently, I'm expanding my expertise by pursuing a Master's in Cybersecurity and Privacy at the UOC.",
+        "resume-presentation-personal": "On a personal level, I consider myself ambitious and highly motivated to keep learning and growing both professionally and personally. I deeply value teamwork, transparency, and constructive feedback. I enjoy sharing knowledge and am always open to new challenges and opportunities to grow.",
         "resume-subtitle-experience":"Main Experience",
         "wallapop-title": "Wallapop (Mar 2022 - Present)",
         "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform.",
@@ -22,7 +22,12 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " is a technology company dedicated to the development software.",
         "resume-subtitle-education": "Education",
-        "resume-subtitle-miscellaneous": "Miscellaneous"
+        "education-master-uoc":"Master in Cybersecurity and Privacy",
+        "education-degree-upc": "Computer Engineering",
+        "education-fmte": "Technological Baccalaureate",
+        "resume-subtitle-miscellaneous": "Miscellaneous",
+        "miscellaneous-barcelonaqbit": "Founder Member of",
+        "miscellaneous-hpcodewars": "3rd position in HP Code Wars Barcelona 2015."
     },
     es: {
         "welcome-title": "> Bienvenido/a!",
@@ -35,8 +40,8 @@ const translations = {
         "resume-second-subtitle": "con más de 6 años de experiencia",
         "resume-download-pdf": "Descargar PDF",
         "resume-presentation-hello": "> Hola, soy Nil! 👋",
-        "resume-presentation-professional": "Soy Ingeniero Informático por la UPC, especializado en Ingeniería del Software. Tengo más de 6 años de experiencia en el sector y como Backend Engineer me apasiona la arquitectura del software. Actualmente también estoy cursando un máster en Ciberseguridad y Privacidad en la UOC",
-        "resume-presentation-personal": "A nivel personal, soy ambiciosos, con ganas de seguir aprendiendo y creciendo a nivel profesional y personal. También soy una persona que disfruta mucho del trabajo en equipo, valoro mucho la honestidad, el buen feedback y compartir conocimiento.",
+        "resume-presentation-professional": "Ingeniero Informático graduado por la UPC, especializado en Ingeniería del Software, con más de 6 años de experiencia en el sector. Como ingeniero backend, me apasiona la arquitectura del software, diseñar y pensar soluciones a nuevos retos. Actualmente, estoy ampliando mis conocimientos con un máster en Ciberseguridad y Privacidad en la UOC.",
+        "resume-presentation-personal": "A nivel personal, me considero una persona ambiciosa y muy motivada para seguir aprendiendo y evolucionando tanto a nivel profesional como personal. Valoro profundamente el trabajo en equipo, la transparencia y el feedback constructivo. Me encanta compartir conocimientos y siempre estoy abierto a nuevos retos y oportunidades para crecer.",
         "resume-subtitle-experience":"Experiencia",
         "wallapop-title": "Wallapop (Mar 2022 - Presente)",
         "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma.",
@@ -47,7 +52,12 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " es una empresa tecnológica con varios productos propios.",
         "resume-subtitle-education": "Educación",
-        "resume-subtitle-miscellaneous": "Otros"
+        "education-master-uoc":"Máster en Ciberseguridad y Privacidad",
+        "education-degree-upc": "Ingeniería Informática",
+        "education-fmte": "Bachillerato tecnológico",
+        "resume-subtitle-miscellaneous": "Otros",
+        "miscellaneous-barcelonaqbit": "Miembro fundador de",
+        "miscellaneous-hpcodewars": "3ra posición en HP Code Wars Barcelona 2015."
     },
     ca: {
         "welcome-title": "> Benvingut/da!",
@@ -60,9 +70,9 @@ const translations = {
         "resume-second-subtitle": "amb més de 6 anys d'experiència",
         "resume-download-pdf": "Descarregar PDF",
         "resume-presentation-hello": "> Hola, em dic Nil! 👋",
-        "resume-presentation-professional": "Sóc Enginyer Informàtic per la UPC, especialitzat en Enginyeria del Software. Tinc més de 6 anys d'experiència en el sector. Com a enginyer backend m'apassiona l'arquitectura del software. Actualment també estic fent un màster en Ciberseguretat i Privadesa a la UOC",
-        "resume-presentation-personal": "A nivell personal, sóc ambiciós, amb ganes de seguir aprenent i creixent tant professional com personalment. També sóc una persona que gaudeix molt del treball en equip, que valora molt l'honestedat, el feedback i compartir coneixements.",
-        "resume-subtitle-experience":"Experiència",
+        "resume-presentation-professional": "Sóc Enginyer Informàtic graduat per la UPC, especialitzat en Enginyeria del Software, amb més de 6 anys d'experiència en el sector. Com a enginyer backend, em fascina l'arquitectura del software i poder dissenyar i pensar solucions a nous reptes. Actualment, estic ampliant els meus coneixements amb un màster en Ciberseguretat i Privadesa a la UOC.",
+        "resume-presentation-personal": "A nivell personal, em defineixo com una persona ambiciosa i amb una gran motivació per continuar aprenent i evolucionant tant a nivell professional com personal. Valoro profundament el treball en equip, la transparència, i el valor del feedback constructiu. M'agrada compartir coneixements i sempre estic obert a nous reptes i oportunitats per créixer.",
+        "resume-subtitle-experience": "Experiència",
         "wallapop-title": "Wallapop (Mar 2022 - Present)",
         "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma.",
         "omatech-title": "Omatech (Abr 2019 - Mar 2022)",
@@ -72,7 +82,12 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " és  empresa tecnològica amb diversos productes propis",
         "resume-subtitle-education": "Educació",
-        "resume-subtitle-miscellaneous": "Altres"
+        "education-master-uoc":"Màster en Ciberseguretat i Privadesa",
+        "education-degree-upc": "Enginyeria Informàtica",
+        "education-fmte": "Batxillerat tecnològic",
+        "resume-subtitle-miscellaneous": "Altres",
+        "miscellaneous-barcelonaqbit": "Membre fundador de",
+        "miscellaneous-hpcodewars": "3ra posició en l'HP Code Wars Barcelona 2015."
     }
 };
 
