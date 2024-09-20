@@ -12,6 +12,7 @@ const translations = {
         "resume-presentation-hello": "> Hey there, I'm Nil! 👋",
         "resume-presentation-professional": "I hold a degree in Computer Engineering, specializing in Software Engineering, with over 6 years of experience in the field. As a Backend Engineer, I'm passionate about software architecture and I'm currently pursuing a master's degree in Cybersecurity and Privacy.",
         "resume-presentation-personal": "On a personal level, I'm an ambitious person, always eager to learn and grow both professionally and personally. I really enjoy working in teams and place a lot of value on honesty, feedback, and sharing knowledge.",
+        "resume-subtitle-experience":"Main Experience",
         "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform."
     },
     es: {
@@ -27,6 +28,7 @@ const translations = {
         "resume-presentation-hello": "> Hola, soy Nil! 👋",
         "resume-presentation-professional": "Soy Ingeniero Informático por la UPC, especializado en Ingeniería del Software. Tengo más de 6 años de experiencia en el sector y como Backend Engineer me apasiona la arquitectura del software. Actualmente también estoy cursando un máster en Ciberseguridad y Privacidad en la UOC",
         "resume-presentation-personal": "A nivel personal, soy ambiciosos, con ganas de seguir aprendiendo y creciendo a nivel profesional y personal. También soy una persona que disfruta mucho del trabajo en equipo, valoro mucho la honestidad, el buen feedback y compartir conocimiento.",
+        "resume-subtitle-experience":"Experiencia",
         "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma."
     },
     ca: {
@@ -42,6 +44,7 @@ const translations = {
         "resume-presentation-hello": "> Hola, em dic Nil! 👋",
         "resume-presentation-professional": "Sóc Enginyer Informàtic per la UPC, especialitzat en Enginyeria del Software. Tinc més de 6 anys d'experiència en el sector. Com a enginyer backend m'apassiona l'arquitectura del software. Actualment també estic fent un màster en Ciberseguretat i Privadesa a la UOC",
         "resume-presentation-personal": "A nivell personal, sóc ambiciós, amb ganes de seguir aprenent i creixent tant professional com personalment. També sóc una persona que gaudeix molt del treball en equip, que valora molt l'honestedat, el feedback i compartir coneixements.",
+        "resume-subtitle-experience":"Experiència",
         "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma."
     }
 };
@@ -49,13 +52,13 @@ const translations = {
 let currentLanguage = 'en'; 
 
 function updateContent() {
-    const languageTranslations = translations[currentLanguage];  // Obtiene las traducciones para el idioma actual
+    const languageTranslations = translations[currentLanguage];
 
     if (languageTranslations) {
-        const elements = document.querySelectorAll('[data-i18n]');  // Selecciona todos los elementos con data-i18n
+        const elements = document.querySelectorAll('[data-i18n]');
         elements.forEach((element) => {
-            const key = element.getAttribute('data-i18n');  // Obtiene la clave de traducción
-            element.textContent = languageTranslations[key] || key;  // Actualiza el texto del elemento
+            const key = element.getAttribute('data-i18n');
+            element.textContent = languageTranslations[key] || key;
         });
     }
 }
