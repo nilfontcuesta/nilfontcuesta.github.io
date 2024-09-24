@@ -5,6 +5,27 @@ body {
     color: #00ff00;
 }
 
+#main {
+    max-width: 800px;
+    margin: 0px auto;
+    position: relative;
+}
+
+.header-controls {
+    display: flex;
+    position: fixed;
+    top: 10px; 
+    right: 10px; 
+    gap: 10px;
+    z-index: 100;
+    padding: 5px;
+    border-radius: 5px; 
+}
+.header-controls button,
+.header-controls .language-select {
+    font-size: 16px;
+}
+
 #title {
     margin-bottom: 3px;
 }
@@ -17,11 +38,6 @@ body {
     min-height: 180px;
 }
 
-hr {
-    margin: 1em 0;
-    border-color: #00ff00;
-}
-
 a:link {
     color: #e341f7;
 }
@@ -30,9 +46,14 @@ a:visited {
     color: #6ceff3;
 }
 
-#main {
-    max-width: 800px;
-    margin: 0px auto;
+hr {
+    margin: 1em 0;
+    border-color: #00ff00;
+}
+
+.content {
+    display: none;
+    margin-left: 15px;
 }
 
 .large-text {
@@ -45,11 +66,6 @@ a:visited {
 
 .small-text {
     font-size: 18px;
-}
-
-.content {
-    display: none;
-    margin-left: 15px;
 }
 
 .collapsible {
@@ -69,3 +85,4 @@ a:visited {
 .collapsible.active::before {
     content: '[-]';
 }
+

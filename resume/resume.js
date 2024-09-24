@@ -33,7 +33,8 @@ function typeDescription() {
             setTimeout(typeDescription, typingSpeed);
         }
     } else {
-        langSelectorElement.removeAttribute("hidden")
+        langSelectorElement.style.display = 'inline-block';
+        langSelectorElement.removeAttribute("hidden");
     }
 }
 

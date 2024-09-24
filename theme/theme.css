@@ -1,0 +1,50 @@
+h2, h3 {
+    color: #00ff00;
+}
+
+body.light-mode {
+    background-color: #f9f8f4;
+    color: #545454;
+}
+
+body.light-mode a {
+    color: #2380ba;
+}
+
+body.light-mode a:visited {
+    color: #ff5757;
+}
+
+body.light-mode h2, body.light-mode h3 {
+    color: #2380ba;
+}
+
+body.light-mode hr {
+    border-color: #2380ba;
+}
+
+body.dark-mode hr {
+    border-color: #00ff00;
+}
+
+.theme-toggle {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #00ff00;
+    color: black;
+    border: 1px solid #00ff00;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+body.light-mode .theme-toggle {
+    background-color: #2380ba;
+    color: #f9f8f4;
+    border: 1px solid #2380ba;
+}
+
+body.dark-mode .theme-toggle {
+    background-color: #00ff00;
+    color: black;
+    border: 1px solid #00ff00;
+}

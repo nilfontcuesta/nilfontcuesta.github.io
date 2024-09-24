@@ -19,10 +19,32 @@ body {
     display: none;
 }
 
+.header-controls {
+    display: flex;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    gap: 10px;
+    z-index: 100;
+}
+
+.header-controls button,
+.header-controls .language-select {
+    font-size: 16px;
+}
+
 #menu a {
     color: #00ff00;
     text-decoration: none;
     margin: 0 10px;
+}
+
+body.light-mode #menu a {
+    color: #2380ba;
+}
+
+body.dark-mode #menu a {
+    color: #00ff00;
 }
 
 #menu a:hover {
@@ -43,6 +65,10 @@ body {
 
 .small-text {
     font-size: 18px;
+}
+
+.button-home {
+    font-size: 24px;
 }
 
 @media (max-width: 768px) {

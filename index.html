@@ -3,27 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Official website of Nil Font i Cuesta, a Software Engineer based in Barcelona.">
+
+    <meta property="og:url" content="https://nilfontcuesta.dev" />
+    <meta property="og:description" content="Official website of Nil Font i Cuesta, a Software Engineer based in Barcelona." />
+    <meta property="og:image" content="https://nilfontcuesta.dev/nilfontcuesta.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nil Font i Cuesta" />
+
     <title>Nil Font i Cuesta</title>
-    <link rel="icon" href="nilfontcuesta.ico" type="image/x-icon">
+    <link rel="icon" href="nilfontcuesta.ico" type="image/x-icon" sizes="16x16 32x32 48x48">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="translations/translations.css">
+    <link rel="stylesheet" href="theme/theme.css">
 </head>
 <body>
     <div class="terminal">
-        <div id="lang-selector" class="language-select" hidden>
-            <div id="selected-language" class="selected-language">EN</div> 
-            <div class="dropdown" id="dropdown">
-                <div class="dropdown-item" data-lang="ca">CA</div>
-                <div class="dropdown-item" data-lang="en">EN</div>
-                <div class="dropdown-item" data-lang="es">ES</div>
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </button>
+            <div id="lang-selector" class="language-select" hidden>
+                <div id="selected-language" class="selected-language">EN</div> 
+                <div class="dropdown" id="dropdown">
+                    <div class="dropdown-item" data-lang="ca">CA</div>
+                    <div class="dropdown-item" data-lang="en">EN</div>
+                    <div class="dropdown-item" data-lang="es">ES</div>
+                </div>
             </div>
         </div>
         <div id="text"></div>
         <div id="menu" class="hidden">
-            <a href="resume/resume.html" class="normal-text" data-i18n="welcome-menu-resume">Resume</a> |
-            <a href="https://www.linkedin.com/in/nilfontcuesta/" target="_blank" class="normal-text"  data-i18n="welcome-menu-linkedin">LinkedIn</a>
+            <a href="resume/resume.html" class="button-home" data-i18n="welcome-menu-resume">Resume</a> |
+            <a href="https://www.linkedin.com/in/nilfontcuesta/" target="_blank" class="button-home" data-i18n="welcome-menu-linkedin">LinkedIn</a>
         </div>
     </div>
+    <script src="theme/theme.js"></script>
     <script src="translations/translations.js"></script>
     <script src="script.js"></script>
 </body>

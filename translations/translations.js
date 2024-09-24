@@ -86,7 +86,7 @@ const translations = {
         "resume-presentation-personal": "A nivell personal, em defineixo com una persona ambiciosa i amb una gran motivació per continuar aprenent i evolucionant tant a nivell professional com personal. Valoro profundament el treball en equip, la transparència, i el valor del feedback constructiu. M'agrada compartir coneixements i sempre estic obert a nous reptes i oportunitats per créixer.",
         "resume-subtitle-experience": "Experiència",
         "wallapop-title": "Wallapop (Mar 2022 - Present)",
-        "wallapop-description": " és una plataforma online per compra i vendre productes de segona má entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma.",
+        "wallapop-description": " és una plataforma online per comprar i vendre productes de segona mà entre particulars amb uns 15 milions d'usuaris actius al mes. Com a membre de l'equip de Platform-Core, la meva tasca és dissenyar i desenvolupar noves eines i serveis que afecten a diverses arees de la plataforma.",
         "ajuntament-title": "Ajuntament de Barcelona (Maig 2019 - Sep 2023)",
         "ajuntament-description": "Càrrec públic a l'Ajuntament de Barcelona durant el mandat 2019-2023. (Mitja jornada)",
         "ajuntament-spokesperson": "Conseller Portaveu de Districte",

@@ -3,19 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Resume</title>
+    <meta name="description" content="Official website of Nil Font i Cuesta, a Software Engineer based in Barcelona.">
+
+    <meta property="og:url" content="https://nilfontcuesta.dev" />
+    <meta property="og:description" content="Official website of Nil Font i Cuesta, a Software Engineer based in Barcelona." />
+    <meta property="og:image" content="https://nilfontcuesta.dev/nilfontcuesta.png" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Nil Font i Cuesta" />
+
+    <title>About me</title>
     <link rel="icon" href="../nilfontcuesta.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="resume.css">
+    <link rel="stylesheet" href="../theme/theme.css">
     <link rel="stylesheet" href="../translations/translations.css">
 </head>
 <body>
     <section id="main">
-        <div id="resume-lang-selector" class="language-select" hidden>
-            <div id="selected-language" class="selected-language">EN</div> 
-            <div class="dropdown" id="dropdown">
-                <div class="dropdown-item" data-lang="ca">CA</div>
-                <div class="dropdown-item" data-lang="en">EN</div>
-                <div class="dropdown-item" data-lang="es">ES</div>
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-sun"></i>
+            </button>
+            <div id="resume-lang-selector" class="language-select" hidden>
+                <div id="selected-language" class="selected-language">EN</div> 
+                <div class="dropdown" id="dropdown">
+                    <div class="dropdown-item" data-lang="ca">CA</div>
+                    <div class="dropdown-item" data-lang="en">EN</div>
+                    <div class="dropdown-item" data-lang="es">ES</div>
+                </div>
             </div>
         </div>
         <h1 id="title" data-i18n="resume-name"></h1>
@@ -74,6 +89,7 @@
             <p>> <span data-i18n="miscellaneous-barcelonaqbit"></span> <a href="http://www.barcelonaqbit.com" target="_blank">Barcelonaqbit</a>.</p>
             <p>> <span data-i18n="miscellaneous-hpcodewars"></span></p>
     </div>
+    <script src="../theme/theme.js"></script>
     <script src="../translations/translations.js"></script>
     <script src="resume.js"></script>
 </body>
