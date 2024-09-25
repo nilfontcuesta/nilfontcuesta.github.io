@@ -9,13 +9,13 @@ document.addEventListener("DOMContentLoaded", function() {
         themeToggleBtn.innerHTML = '<i class="fas fa-moon"></i>';
     } else {
         document.body.classList.remove("light-mode");
-        themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+        themeToggleBtn.innerHTML = '<i class="fas fa-lightbulb"></i>';
     }
 
     themeToggleBtn.addEventListener("click", function() {
         if (document.body.classList.contains("light-mode")) {
             document.body.classList.remove("light-mode");
-            themeToggleBtn.innerHTML = '<i class="fas fa-sun"></i>';
+            themeToggleBtn.innerHTML = '<i class="fas fa-lightbulb"></i>';
             localStorage.setItem("theme", "dark");
         } else {
             document.body.classList.add("light-mode");
