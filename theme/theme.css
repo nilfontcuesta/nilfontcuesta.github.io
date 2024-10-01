@@ -20,11 +20,19 @@ body.light-mode h2, body.light-mode h3 {
 }
 
 body.light-mode hr {
-    border-color: #2380ba;
+    border-color: #545454;
 }
 
 body.dark-mode hr {
     border-color: #00ff00;
+}
+
+body.light-mode strong {
+    color: #2380ba;
+}
+
+body.dark-mode strong {
+    color: #00ff00;
 }
 
 .theme-toggle {
