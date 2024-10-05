@@ -127,7 +127,7 @@ const translations = {
         "skills-languages-description": "Català (natiu), Castellà (natiu), Anglès (Competència laboral professional)",
         "skills-programming-title": "Llenguatges de programació",
         "skills-programming-description": "Kotlin, Java, Python, Go, PHP, TypeScript, JavaScript, C, C++",
-        "skills-frameworks-title": "Frameworks/Llibraries",
+        "skills-frameworks-title": "Frameworks/Llibreries",
         "skills-frameworks-description": "Ktor, SpringBoot, Django, Laravel FastAPI, React, AngularJS",
         "skills-technologies-title": "Altres tecnologies",
         "skills-technologies-description": "AWS (ECS, DynamoDB, RDS, Cloud Formation...), Grafana, InfluxDB, Kafka, RabbitMQ",
