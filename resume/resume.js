@@ -1,12 +1,12 @@
 const descriptionElement = document.getElementById('description');
 const langSelectorElement = document.getElementById('resume-lang-selector');
-const description = [
+var description = [
     { content: translate("resume-presentation-hello"), key: "resume-presentation-hello" },
     { content: translate("resume-presentation-professional"), key: "resume-presentation-professional" },
     { content: translate("resume-presentation-personal"),key: "resume-presentation-personal" },
 ]
 
-const typingSpeed = 20; 
+const typingSpeed = 15; 
 
 let currentTextIndex = 0;
 let currentCharIndex = 0;
@@ -18,7 +18,6 @@ function typeDescription() {
         if (currentCharIndex === 0) {
             const lineDiv = document.createElement('p');
             lineDiv.id = `descriptionLine${currentTextIndex}`;
-            lineDiv.setAttribute("data-i18n", currentLine.key);
             descriptionElement.appendChild(lineDiv); 
         }
 
@@ -28,15 +27,24 @@ function typeDescription() {
             currentCharIndex++;
             setTimeout(typeDescription, typingSpeed);
         } else {
+            lineDiv.setAttribute("data-i18n", currentLine.key);
+            updateContent();
+            updateDescriptionContent();
             currentTextIndex++;
             currentCharIndex = 0;
             setTimeout(typeDescription, typingSpeed);
         }
     } else {
         langSelectorElement.style.display = 'inline-block';
-        langSelectorElement.removeAttribute("hidden");
     }
 }
+
+function updateDescriptionContent() {
+    description.forEach((item) => {
+        item.content = translate(item.key);
+    });
+}
+
 
 const collapsibles = document.querySelectorAll('.collapsible');
 

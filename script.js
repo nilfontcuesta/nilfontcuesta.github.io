@@ -2,12 +2,12 @@ const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
 const langSelectorElement = document.getElementById('lang-selector');
 
-const texts = [
+var texts = [
     { content: translate("welcome-title"), class: "large-text", key:"welcome-title" },
     { content: translate("welcome-second"), class: "normal-text", key:"welcome-second" },
     { content: translate("welcome-third"), class: "samll-text", key:"welcome-third" }
 ]
-const typingSpeed = 75; 
+const typingSpeed = 65; 
 
 let currentTextIndex = 0;
 let currentCharIndex = 0;
@@ -20,7 +20,6 @@ function typeText() {
             const lineDiv = document.createElement('div');
             lineDiv.classList.add(currentLine.class);
             lineDiv.id = `line${currentTextIndex}`;
-            lineDiv.setAttribute("data-i18n", currentLine.key);
             textElement.appendChild(lineDiv); 
         }
 
@@ -30,14 +29,22 @@ function typeText() {
             currentCharIndex++;
             setTimeout(typeText, typingSpeed);
         } else {
+            lineDiv.setAttribute("data-i18n", currentLine.key);
+            updateContent();
+            updateTextsContent();
             currentTextIndex++;
             currentCharIndex = 0;
             setTimeout(typeText, typingSpeed);
         }
     } else {
         menuElement.classList.remove('hidden');
-        langSelectorElement.removeAttribute("hidden")
     }
+}
+
+function updateTextsContent() {
+    texts.forEach((item) => {
+        item.content = translate(item.key);
+    });
 }
 
 function adjustViewportHeight() {
