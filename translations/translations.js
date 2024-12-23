@@ -2,7 +2,7 @@ const translations = {
     en: {
         "welcome-title": "> Welcome!",
         "welcome-second": "I'm Nil Font i Cuesta",
-        "welcome-third": "a Software Engineer who loves ☕​⛵🏔️",
+        "welcome-third": "A Software Engineer who loves ☕​⛵🏔️",
         "welcome-menu-resume": "About me",
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font i Cuesta",
@@ -48,7 +48,7 @@ const translations = {
     es: {
         "welcome-title": "> Bienvenido/a!",
         "welcome-second": "Soy Nil Font Cuesta",
-        "welcome-third": "un Ingeniero del Software apasionado del ☕​⛵🏔️",
+        "welcome-third": "Un Ingeniero del Software apasionado del ☕​⛵🏔️",
         "welcome-menu-resume": "Sobre mi",
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font Cuesta",
@@ -94,7 +94,7 @@ const translations = {
     ca: {
         "welcome-title": "> Benvingut/da!",
         "welcome-second": "Em dic Nil Font i Cuesta",
-        "welcome-third": "sóc un Enginyer del Software apassionat del ☕​⛵🏔️",
+        "welcome-third": "Sóc un Enginyer del Software apassionat del ☕​⛵🏔️",
         "welcome-menu-resume": "Sobre mi",
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font i Cuesta",
