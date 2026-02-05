@@ -7,12 +7,12 @@ const translations = {
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font i Cuesta",
         "resume-first-subtitle": "> Software Engineer:",
-        "resume-second-subtitle": "7 years of experience",
+        "resume-second-subtitle": "8 years of experience",
         "resume-download-pdf": "Download PDF",
         "resume-presentation-hello": "> Hey there, I'm Nil! 👋",
-        "resume-presentation-professional": "A Computer Engineer graduated from UPC, specialized in Software Engineering, with over 7 years of experience in the field. As a backend engineer, I'm passionate about software architecture and its ability to solve complex problems efficiently. Currently, I'm expanding my expertise by pursuing a Master's in Cybersecurity and Privacy at the UOC.",
+        "resume-presentation-professional": "A Computer Engineer graduated from UPC, specialized in Software Engineering, with over 8 years of experience in the field. As a backend engineer, I'm passionate about software architecture and its ability to solve complex problems efficiently. Currently, I'm expanding my expertise by pursuing a Master's in Cybersecurity and Privacy at the UOC.",
         "resume-presentation-personal": "On a personal level, I consider myself ambitious and highly motivated to keep learning and growing both professionally and personally. I deeply value teamwork, transparency, and constructive feedback. I enjoy sharing knowledge and am always open to new challenges and opportunities to grow.",
-        "resume-subtitle-experience":"Main Experience",
+        "resume-subtitle-experience": "Main Experience",
         "wallapop-title": "Wallapop (Mar 2022 - Present)",
         "wallapop-description": " is a leading online platform for buying and selling second-hand products between individuals, with over 15 million active users per month. As a member of the Platform-Core team, my role is to develop and deliver new tools and services that are utilized across the entire platform.",
         "ajuntament-title": "Barcelona City Council (May 2019 - Sep 2023)",
@@ -26,7 +26,7 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " is a technology company dedicated to the development software.",
         "resume-subtitle-education": "Education",
-        "education-master-uoc-title":"Master in Cybersecurity and Privacy",
+        "education-master-uoc-title": "Master in Cybersecurity and Privacy",
         "education-master-uoc-description": "Master in  Cybersecurity  and  Privacy.  The  core  focus  of  this program  includes  penetration  testing,  ethical  hacking, cryptography,  cybersecurity  management,  and  data  privacy  lawsand standards.",
         "education-degree-upc-title": "Computer Engineering",
         "education-degree-upc-description": "Degree  in  Computer  Engineering  with  a  specialization  inSoftware Engineering.",
@@ -53,12 +53,12 @@ const translations = {
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font Cuesta",
         "resume-first-subtitle": "> Ingeniero del Software:",
-        "resume-second-subtitle": "con más de 7 años de experiencia",
+        "resume-second-subtitle": "con más de 8 años de experiencia",
         "resume-download-pdf": "Descargar PDF",
         "resume-presentation-hello": "> Hola, soy Nil! 👋",
-        "resume-presentation-professional": "Ingeniero Informático graduado por la UPC, especializado en Ingeniería del Software, con más de 7 años de experiencia en el sector. Como ingeniero backend, me apasiona la arquitectura del software, diseñar y pensar soluciones a nuevos retos. Actualmente, estoy ampliando mis conocimientos con un máster en Ciberseguridad y Privacidad en la UOC.",
+        "resume-presentation-professional": "Ingeniero Informático graduado por la UPC, especializado en Ingeniería del Software, con más de 8 años de experiencia en el sector. Como ingeniero backend, me apasiona la arquitectura del software, diseñar y pensar soluciones a nuevos retos. Actualmente, estoy ampliando mis conocimientos con un máster en Ciberseguridad y Privacidad en la UOC.",
         "resume-presentation-personal": "A nivel personal, me considero una persona ambiciosa y muy motivada para seguir aprendiendo y evolucionando tanto a nivel profesional como personal. Valoro profundamente el trabajo en equipo, la transparencia y el feedback constructivo. Me encanta compartir conocimientos y siempre estoy abierto a nuevos retos y oportunidades para crecer.",
-        "resume-subtitle-experience":"Experiencia",
+        "resume-subtitle-experience": "Experiencia",
         "wallapop-title": "Wallapop (Mar 2022 - Presente)",
         "wallapop-description": " es una plataforma online para comprar y vender porductos de segunda mano entre particulares con unos 15 millones de usuarios activos al mes. Como miembro del equipo de Platform-Core, mi tarea es diseñar y desarrollar nuevas herramientas y servicios que afecten a varias arias de la plataforma.",
         "ajuntament-title": "Ayuntamiento de Barcelona (Mayo 2019 - Set 2023)",
@@ -72,7 +72,7 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " es una empresa tecnológica con varios productos propios.",
         "resume-subtitle-education": "Educación",
-        "education-master-uoc-title":"Máster en Ciberseguridad y Privacidad",
+        "education-master-uoc-title": "Máster en Ciberseguridad y Privacidad",
         "education-master-uoc-description": "Los principales objetivos de este máster son la capacidad de gestión de la ciberseguridad de una entidad, el pentesting (test de penetración), el hacking ético, la criptografía y los estándares legales de privacidad.",
         "education-degree-upc-title": "Ingeniería Informática",
         "education-degree-upc-description": "Grado de Ingeniería Informática cursando la especialización de Ingeniería del Software",
@@ -99,10 +99,10 @@ const translations = {
         "welcome-menu-linkedin": "LinkedIn",
         "resume-name": "Nil Font i Cuesta",
         "resume-first-subtitle": "> Enginyer del Software:",
-        "resume-second-subtitle": "amb més de 7 anys d'experiència",
+        "resume-second-subtitle": "amb més de 8 anys d'experiència",
         "resume-download-pdf": "Descarregar PDF",
         "resume-presentation-hello": "> Hola, em dic Nil! 👋",
-        "resume-presentation-professional": "Sóc Enginyer Informàtic graduat per la UPC, especialitzat en Enginyeria del Software, amb més de 7 anys d'experiència en el sector. Com a enginyer backend, em fascina l'arquitectura del software i poder dissenyar i pensar solucions a nous reptes. Actualment, estic ampliant els meus coneixements amb un màster en Ciberseguretat i Privadesa a la UOC.",
+        "resume-presentation-professional": "Sóc Enginyer Informàtic graduat per la UPC, especialitzat en Enginyeria del Software, amb més de 8 anys d'experiència en el sector. Com a enginyer backend, em fascina l'arquitectura del software i poder dissenyar i pensar solucions a nous reptes. Actualment, estic ampliant els meus coneixements amb un màster en Ciberseguretat i Privadesa a la UOC.",
         "resume-presentation-personal": "A nivell personal, em defineixo com una persona ambiciosa i amb una gran motivació per continuar aprenent i evolucionant tant a nivell professional com personal. Valoro profundament el treball en equip, la transparència, i el valor del feedback constructiu. M'agrada compartir coneixements i sempre estic obert a nous reptes i oportunitats per créixer.",
         "resume-subtitle-experience": "Experiència",
         "wallapop-title": "Wallapop (Mar 2022 - Present)",
@@ -118,7 +118,7 @@ const translations = {
         "bcnquark-title": "BCN Quark (Jul 2017 - Feb 2019)",
         "bcnquark-description": " és  empresa tecnològica amb diversos productes propis",
         "resume-subtitle-education": "Educació",
-        "education-master-uoc-title":"Màster en Ciberseguretat i Privadesa",
+        "education-master-uoc-title": "Màster en Ciberseguretat i Privadesa",
         "education-master-uoc-description": "Els principals objectius d'aquest màster són la capacitat de gestionar la ciberseguretat d'entitats, el pentesting (test de penetració), el hacking ètic, la criptografia i els estandards legals de privacitat.",
         "education-degree-upc-title": "Enginyeria Informàtica",
         "education-degree-upc-description": "Grau en Enginyeria Informàtica cursant l'especialització d'Enginyeria del Software.",
@@ -139,9 +139,9 @@ const translations = {
     }
 };
 
-let currentLanguage = 'en'; 
+let currentLanguage = 'en';
 
-function updateContent() {
+export function updateContent() {
     const languageTranslations = translations[currentLanguage];
 
     if (languageTranslations) {
@@ -154,15 +154,15 @@ function updateContent() {
 }
 
 function changeLanguage(lang) {
-    currentLanguage = lang;  
-    localStorage.setItem('language', lang);  
+    currentLanguage = lang;
+    localStorage.setItem('language', lang);
     document.getElementById('selected-language').textContent = `${lang.toUpperCase()}`;
-    updateContent(); 
+    updateContent();
 }
 
-function translate(key) {
+export function translate(key) {
     var result = translations[currentLanguage][key]
-    return result ? result: key;
+    return result ? result : key;
 }
 
 function detectLanguage() {
@@ -186,7 +186,7 @@ const dropdown = document.getElementById('dropdown');
 const selectedLanguage = document.getElementById('selected-language');
 
 selectedLanguage.addEventListener('click', () => {
-    languageSelect.classList.toggle('open'); 
+    languageSelect.classList.toggle('open');
 });
 
 document.querySelectorAll('.dropdown-item').forEach(item => {

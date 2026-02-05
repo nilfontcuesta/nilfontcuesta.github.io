@@ -1,0 +1,96 @@
+---
+import Layout from '../layouts/Layout.astro';
+// Importamos los estilos específicos de resume
+import '../styles/resume.css';
+---
+
+<Layout title="About me | Nil Font i Cuesta">
+    <section id="main">
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-lightbulb"></i>
+            </button>
+            <div id="resume-lang-selector" class="language-select">
+                <div id="selected-language" class="selected-language">EN</div> 
+                <div class="dropdown" id="dropdown">
+                    <div class="dropdown-item" data-lang="ca">CA</div>
+                    <div class="dropdown-item" data-lang="en">EN</div>
+                    <div class="dropdown-item" data-lang="es">ES</div>
+                </div>
+            </div>
+        </div>
+
+        <h1 id="title">
+            <a href="/" data-i18n="resume-name">Nil Font i Cuesta</a>
+        </h1>
+
+        <div id="subtitle">
+            <span class="small-text" data-i18n="resume-first-subtitle"></span>
+            <span class="small-text" data-i18n="resume-second-subtitle"></span>
+        </div>
+
+        <small id="contact">
+            <a href="https://www.linkedin.com/in/nilfontcuesta/" target="_blank">linkedin</a> ·
+            <a href="https://github.com/nilfontcuesta" target="_blank">github</a> ·
+            <a href="mailto:hello@nilfontcuesta.dev">hello@nilfontcuesta.dev</a> |
+            <a href="/CV-NilFont-2026.pdf" target="_blank" data-i18n="resume-download-pdf"></a>
+        </small>
+
+        <hr>
+        
+        <div id="description"></div>
+
+        <h2 data-i18n="resume-subtitle-experience"></h2>
+        
+        <h3 class="collapsible" data-i18n="wallapop-title"></h3>
+        <div class="content">
+            <p><a href="https://www.wallapop.com" target="_blank">Wallapop</a><span data-i18n="wallapop-description"></span></p>
+            <p style="margin-left: 15px;"><strong>&gt;</strong> Senior Backend Engineer (Jul 2023 - Present)</p>
+            <p style="margin-left: 15px;"><strong>&gt;</strong> Backend Engineer (Mar 2022 - Jul 2023)</p>
+            <p style="margin-left: 15px;">Skills: Kotlin, Java, AWS, RabbitMQ, Kafka</p>
+        </div>
+
+        <h3 class="collapsible" data-i18n="ajuntament-title"></h3>
+        <div class="content">
+            <p><span data-i18n="ajuntament-description"></span></p>
+            <p style="margin-left: 15px;"><strong>&gt;</strong> <span data-i18n="ajuntament-spokesperson"></span> (Oct 2022 - Sep 2023)</p>
+            <p style="margin-left: 15px;"><strong>&gt;</strong> <span data-i18n="ajuntament-councilior"></span> (May 2019 - Oct 2022)</p>
+        </div>
+
+        <h3 class="collapsible" data-i18n="omatech-title"></h3>
+        <div class="content">
+            <p><a href="https://omatech.com/en" target="_blank">Omatech</a><span data-i18n="omatech-description"></span></p>
+            <p style="margin-left: 15px;"><strong>&gt;</strong> Full-Stack Developer</p>
+        </div>
+
+        <h2 data-i18n="resume-subtitle-education"></h2>
+        <p>&gt; <strong data-i18n="education-master-uoc-title"></strong><span> - <a href="https://www.uoc.edu/en" target="_blank">UOC</a> (Present)</span></p>
+        <p style="margin-left: 15px;" data-i18n="education-master-uoc-description"></p>
+
+        <h2 data-i18n="resume-subtitle-skills"></h2>
+        <p>&gt; <strong><span data-i18n="skills-programming-title"></span></strong>: <span data-i18n="skills-programming-description"></span></p>
+        <p>&gt; <strong><span data-i18n="skills-frameworks-title"></span></strong>: <span data-i18n="skills-frameworks-description"></span></p>
+        <p>&gt; <strong><span data-i18n="skills-technologies-title"></span></strong>: <span data-i18n="skills-technologies-description"></span></p>
+        <p>&gt; <strong><span data-i18n="skills-languages-title"></span></strong>: <span data-i18n="skills-languages-description"></span></p>
+        
+        <h2 data-i18n="resume-subtitle-miscellaneous"></h2>
+        <p>&gt; <span data-i18n="miscellaneous-cybersecurity"></span></p>
+        <p>&gt; <span data-i18n="miscellaneous-machinelearning"></span></p>
+        <p>&gt; <span data-i18n="miscellaneous-barcelonaqbit"></span> <a href="http://www.barcelonaqbit.com" target="_blank">Barcelonaqbit</a>.</p>
+        <p>&gt; <span data-i18n="miscellaneous-hpcodewars"></span></p>
+    </section>
+
+    <style>
+		body {
+            margin: 30px 4%;
+            background-color: black;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+        }
+	</style>
+    <script>
+        import "../scripts/theme.js";
+        import "../scripts/translations.js";
+        import "../scripts/resume.js";
+    </script>
+</Layout>

@@ -1,3 +1,5 @@
+import { translate, updateContent } from './translations.js';
+
 const textElement = document.getElementById('text');
 const menuElement = document.getElementById('menu');
 const langSelectorElement = document.getElementById('lang-selector');

@@ -1,0 +1,47 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Nil Font i Cuesta">
+    <div class="terminal">
+        <div class="header-controls">
+            <button id="theme-toggle" class="theme-toggle">
+                <i class="fas fa-lightbulb"></i>
+            </button>
+            <div id="lang-selector" class="language-select">
+                <div id="selected-language" class="selected-language">EN</div> 
+                <div class="dropdown" id="dropdown">
+                    <div class="dropdown-item" data-lang="ca">CA</div>
+                    <div class="dropdown-item" data-lang="en">EN</div>
+                    <div class="dropdown-item" data-lang="es">ES</div>
+                </div>
+            </div>
+        </div>
+        <div id="text"></div>
+       <div id="menu">
+			[<a href="/resume" class="button-home" data-i18n="welcome-menu-resume">Resume</a>]
+			[<a href="https://www.linkedin.com/in/nilfontcuesta/" target="_blank" class="button-home" data-i18n="welcome-menu-linkedin">LinkedIn</a>]
+		</div>
+    </div>
+	<style>
+		body {
+			margin: 0;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			background-color: black;
+			font-family: 'Courier New', Courier, monospace;
+			color: #00ff00;
+			overflow: hidden;
+			height: 100vh;
+		}
+	</style>
+
+    <script>
+        // Importamos los scripts para que Astro los compile
+        import "../scripts/theme.js";
+        import "../scripts/translations.js";
+        import "../scripts/typing.js";
+    </script>
+</Layout>

@@ -1,3 +1,5 @@
+import { translate, updateContent } from './translations.js';
+
 const descriptionElement = document.getElementById('description');
 const langSelectorElement = document.getElementById('resume-lang-selector');
 var description = [
