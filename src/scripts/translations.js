@@ -45,7 +45,7 @@ const translations = {
         "miscellaneous-barcelonaqbit": "Founder Member of",
         "miscellaneous-hpcodewars": "3rd position in HP Code Wars Barcelona 2015.",
         "footer-legal": "Legal warning",
-        "footer-cookies": "Privacy cookies",
+        "footer-cookies": "Cookies policy",
         "legal-back": "Back",
         "legal-last-update": "Last Update"
     },
