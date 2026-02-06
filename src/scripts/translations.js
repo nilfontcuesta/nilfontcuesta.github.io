@@ -146,7 +146,7 @@ const translations = {
         "miscellaneous-hpcodewars": "3ra posició en l'HP Code Wars Barcelona 2015.",
         "footer-legal": "Avís legal",
         "footer-cookies": "Política de cookies",
-        "legal-back": "Enrera",
+        "legal-back": "Enrere",
         "legal-last-update": "Última actualització"
     }
 };
