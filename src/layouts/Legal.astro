@@ -1,0 +1,69 @@
+---
+import Layout from './Layout.astro';
+import Footer from '../components/Footer.astro';
+import '../styles/resume.css'; 
+import '../styles/theme.css';
+import HeaderControls from '../components/HeaderControls.astro';
+
+const { frontmatter } = Astro.props;
+---
+
+<Layout title={`${frontmatter.title} | Nil Font i Cuesta`}>
+    <section id="main">
+        <HeaderControls />
+
+        <div class="legal-container">
+            <nav id="menu-back-nav" class="back-nav small-text">
+                [<a href="/" data-i18n="legal-back">back</a>]
+            </nav>
+            
+            <main class="legal-content">
+                <h1 class="large-text">{frontmatter.title}</h1>
+                <p class="small-text" style="opacity: 0.7;">
+                    <span data-i18n="legal-last-update">Last updated</span>: {frontmatter.date}
+                </p>
+                <hr />
+                
+                <article class="markdown-body">
+                    <slot /> 
+                </article>
+            </main>
+        </div>
+
+        <Footer />
+    </section>
+</Layout>
+
+<style>
+    body {
+        margin: 30px 4%;
+        background-color: black;
+        font-family: 'Courier New', Courier, monospace;
+        color: #00ff00;
+    }
+
+    #menu-back-nav a {
+        color: #00ff00;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    #menu-back-nav a:hover {
+        text-decoration: underline;
+    }
+
+    body.light-mode #menu-back-nav a {
+        color: #2380ba;
+    }
+
+    body.dark-mode #menu-back-nav a {
+        color: #00ff00;
+    }
+
+    .markdown-body p, .markdown-body li {
+        color: inherit;
+    }
+</style>
+<script>
+    import "../scripts/legal.js";
+</script>

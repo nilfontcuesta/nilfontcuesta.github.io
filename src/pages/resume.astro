@@ -1,23 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/resume.css';
+import HeaderControls from '../components/HeaderControls.astro';
 ---
 
 <Layout title="About me | Nil Font i Cuesta">
     <section id="main">
-        <div class="header-controls">
-            <button id="theme-toggle" class="theme-toggle">
-                <i class="fas fa-lightbulb"></i>
-            </button>
-            <div id="resume-lang-selector" class="language-select">
-                <div id="selected-language" class="selected-language">EN</div> 
-                <div class="dropdown" id="dropdown">
-                    <div class="dropdown-item" data-lang="ca">CA</div>
-                    <div class="dropdown-item" data-lang="en">EN</div>
-                    <div class="dropdown-item" data-lang="es">ES</div>
-                </div>
-            </div>
-        </div>
+        <HeaderControls />
 
         <h1 id="title">
             <a href="/" data-i18n="resume-name">Nil Font i Cuesta</a>
@@ -78,7 +68,7 @@ import '../styles/resume.css';
         <p>&gt; <span data-i18n="miscellaneous-barcelonaqbit"></span> <a href="http://www.barcelonaqbit.com" target="_blank">Barcelonaqbit</a>.</p>
         <p>&gt; <span data-i18n="miscellaneous-hpcodewars"></span></p>
     </section>
-
+    <Footer />
     <style>
 		body {
             margin: 30px 4%;

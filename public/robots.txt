@@ -3,4 +3,7 @@ Allow: /
 
 Disallow: /_astro/
 
+Disallow: /legal/
+Disallow: /cookies/
+
 Sitemap: https://nilfontcuesta.dev/sitemap.xml

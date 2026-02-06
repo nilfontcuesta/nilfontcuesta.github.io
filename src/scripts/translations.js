@@ -43,7 +43,11 @@ const translations = {
         "miscellaneous-cybersecurity": "Cybersecurity introduction course - UPC Jedi Junior",
         "miscellaneous-machinelearning": "Machine Learning introduction course - UPC Jedi Junior",
         "miscellaneous-barcelonaqbit": "Founder Member of",
-        "miscellaneous-hpcodewars": "3rd position in HP Code Wars Barcelona 2015."
+        "miscellaneous-hpcodewars": "3rd position in HP Code Wars Barcelona 2015.",
+        "footer-legal": "Legal warning",
+        "footer-cookies": "Privacy cookies",
+        "legal-back": "Back",
+        "legal-last-update": "Last Update"
     },
     es: {
         "welcome-title": "> Bienvenido/a!",
@@ -89,7 +93,11 @@ const translations = {
         "miscellaneous-cybersecurity": "Curso de introducción a la Ciberseguretat - UPC Jedi Junior",
         "miscellaneous-machinelearning": "Curso de introducción al Machine Learning - UPC Jedi Junior",
         "miscellaneous-barcelonaqbit": "Miembro fundador de",
-        "miscellaneous-hpcodewars": "3ra posición en HP Code Wars Barcelona 2015."
+        "miscellaneous-hpcodewars": "3ra posición en HP Code Wars Barcelona 2015.",
+        "footer-legal": "Aviso legal",
+        "footer-cookies": "Política de cookies",
+        "legal-back": "Atrás",
+        "legal-last-update": "Última actualización"
     },
     ca: {
         "welcome-title": "> Benvingut/da!",
@@ -135,7 +143,11 @@ const translations = {
         "miscellaneous-cybersecurity": "Curs d'introducció a la Ciberseguretat - UPC Jedi Junior",
         "miscellaneous-machinelearning": "Curs d'Introducció al Machine Learning - UPC Jedi Junior",
         "miscellaneous-barcelonaqbit": "Membre fundador de",
-        "miscellaneous-hpcodewars": "3ra posició en l'HP Code Wars Barcelona 2015."
+        "miscellaneous-hpcodewars": "3ra posició en l'HP Code Wars Barcelona 2015.",
+        "footer-legal": "Avís legal",
+        "footer-cookies": "Política de cookies",
+        "legal-back": "Enrera",
+        "legal-last-update": "Última actualització"
     }
 };
 
@@ -149,6 +161,14 @@ export function updateContent() {
         elements.forEach((element) => {
             const key = element.getAttribute('data-i18n');
             element.textContent = languageTranslations[key] || key;
+        });
+
+        const dynamicLinks = document.querySelectorAll('.dynamic-link');
+        dynamicLinks.forEach((link) => {
+            const basePath = link.getAttribute('data-path');
+            if (basePath) {
+                link.setAttribute('href', `/${currentLanguage}${basePath}`);
+            }
         });
     }
 }

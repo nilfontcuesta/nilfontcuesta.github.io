@@ -6,6 +6,12 @@
     display: none;
 }
 
+.home-footer-wrapper {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
 .header-controls {
     display: flex;
     position: absolute;
