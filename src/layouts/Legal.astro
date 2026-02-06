@@ -64,6 +64,48 @@ const { frontmatter } = Astro.props;
         color: inherit;
     }
 </style>
+
+<style is:global>
+    /* 1. Forcem que el contingut del Markdown hereti el color del body */
+    .markdown-body p, 
+    .markdown-body li {
+        color: inherit !important; /* Així agafarà el verd en dark i gris en light */
+        font-size: 18px; /* small-text */
+    }
+
+    /* 2. Estilitzem la llista tipus terminal */
+    .markdown-body ul {
+        list-style: none !important;
+        padding-left: 0 !important;
+    }
+
+    .markdown-body li {
+        position: relative;
+        padding-left: 1.5rem; 
+        margin-bottom: 0.5rem;
+    }
+
+    /* El caràcter > davant de cada element de la llista */
+    .markdown-body li::before {
+        content: ">"; 
+        position: absolute;
+        left: 0;
+        font-weight: bold;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    body.light-mode .markdown-body li::before {
+        color: #2380ba;
+    }
+
+    body.darck-mode .markdown-body li::before {
+        color: #00ff00;
+    }
+    .markdown-body h2 {
+        margin-top: 2rem;
+        color: inherit;
+    }
+</style>
 <script>
     import "../scripts/legal.js";
 </script>
