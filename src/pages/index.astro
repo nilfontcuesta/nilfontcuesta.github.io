@@ -1,22 +1,13 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Footer from '../components/Footer.astro';
+import HeaderControls from '../components/HeaderControls.astro';
 ---
 
 <Layout title="Nil Font i Cuesta">
     <div class="terminal">
         <div class="header-controls">
-            <button id="theme-toggle" class="theme-toggle">
-                <i class="fas fa-lightbulb"></i>
-            </button>
-            <div id="lang-selector" class="language-select">
-                <div id="selected-language" class="selected-language">EN</div> 
-                <div class="dropdown" id="dropdown">
-                    <div class="dropdown-item" data-lang="ca">CA</div>
-                    <div class="dropdown-item" data-lang="en">EN</div>
-                    <div class="dropdown-item" data-lang="es">ES</div>
-                </div>
-            </div>
+            <HeaderControls />
         </div>
         <div id="text"></div>
        <div id="menu">
